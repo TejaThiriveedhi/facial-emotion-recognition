@@ -1,0 +1,49 @@
+# Virtual Environment
+fer_env/
+venv/
+env/
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Redundant/draft notebooks
+FER2013_Emotion_Detection1.ipynb
+
+# Unused model files
+models/fer.weights.h5
+models/efficientnetb0.weights.h5
+models/mobilenetv2_fer_finetuned.h5
+models/mobilenetv2_fer_single.keras
+saved_models/mobilenet_full.keras
+
+# Checkpoints (intermediate training weights)
+checkpoints/
+
+# Redundant logs
+logs/mobilenet_log.csv
+logs/training_log.csv
+
+# NumPy prediction arrays
+*.npy
+
+# Redundant/cluttered images
+confusion_matrix.png
+gradcam_pp_combined.png
+gradcam_pp_mobilenet.png
+training_curves_combined.png
+test_images_selected.png
+
+# Temp files
+project_tree.txt
+fer_tree.txt
+*.html
+
+# OS files
+.DS_Store
+Thumbs.db
