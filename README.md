@@ -126,14 +126,18 @@ facial-emotion-recognition/
 │   └── efficientnet_full.keras         # Full saved model
 │
 ├── logs/
-│   └── efficientnet_training_log.csv   # Epoch-by-epoch training history
+│   ├── efficientnet_training_log.csv   # EfficientNetB0 epoch-by-epoch history
+│   └── mobilenet_log.csv               # MobileNetV2 epoch-by-epoch history
 │
 └── (visualizations at root level)
     ├── sample_images.png
     ├── gradcam_pp_efficientnet.png
+    ├── gradcam_pp_combined.png         # Side-by-side both models across checkpoints
     ├── confusion_matrix_eff.png
     ├── training_curves.png
-    └── class_distribution.png
+    ├── class_distribution.png
+    ├── per_class_accuracy.png
+    └── model_comparison.png
 ```
 
 ---
