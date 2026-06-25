@@ -131,6 +131,3 @@ Open `FER2013_Emotion_Detection.ipynb` in Google Colab. The notebook covers:
 
 ---
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
