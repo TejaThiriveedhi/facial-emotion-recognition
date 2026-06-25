@@ -2,7 +2,7 @@
 
 A deep learning system that classifies facial emotions from images or live webcam feed into 7 categories, with visual explainability via Grad-CAM++ heatmaps. Built on EfficientNetB0 with fine-tuning on the FER2013 dataset and deployed as an interactive Gradio web app.
 
-![Sample Prediction](assets/sample_images.png)
+![Sample Prediction](/sample_images.png)
 
 ---
 
@@ -10,7 +10,7 @@ A deep learning system that classifies facial emotions from images or live webca
 
 Upload a face image or use your webcam — the app predicts the emotion and overlays a Grad-CAM++ heatmap showing which facial regions drove the prediction.
 
-![Grad-CAM Visualization](assets/gradcam_pp_efficientnet.png)
+![Grad-CAM Visualization](/gradcam_pp_efficientnet.png)
 
 ---
 
@@ -42,9 +42,9 @@ Upload a face image or use your webcam — the app predicts the emotion and over
 | Backbone | EfficientNetB0 |
 | Input size | 48×48 → 224×224 |
 
-![Confusion Matrix](assets/confusion_matrix_eff.png)
-![Training Curves](assets/training_curves.png)
-![Class Distribution](assets/class_distribution.png)
+![Confusion Matrix](/confusion_matrix_eff.png)
+![Training Curves](/training_curves.png)
+![Class Distribution](/class_distribution.png)
 
 ---
 
@@ -69,7 +69,7 @@ facial-emotion-recognition/
 ├── logs/
 │   └── efficientnet_training_log.csv # Epoch-by-epoch training history
 │
-└── assets/                           # Visualizations used in README
+└── /                           # Visualizations used in README
     ├── sample_images.png
     ├── gradcam_pp_efficientnet.png
     ├── confusion_matrix_eff.png
