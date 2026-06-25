@@ -26,7 +26,6 @@ saved_models/mobilenet_full.keras
 checkpoints/
 
 # Redundant logs
-logs/mobilenet_log.csv
 logs/training_log.csv
 
 # NumPy prediction arrays
@@ -34,7 +33,6 @@ logs/training_log.csv
 
 # Redundant/cluttered images
 confusion_matrix.png
-gradcam_pp_combined.png
 gradcam_pp_mobilenet.png
 training_curves_combined.png
 test_images_selected.png
