@@ -81,9 +81,11 @@ Upload a face image or use your webcam — the app predicts the emotion, display
 | Model Size | 39.5 MB | 27.4 MB |
 | Generalization Gap | ~5.0% | **~1.2%** |
 
+![Model Comparison](model_comparison.png)
 ![Training Curves](training_curves.png)
 ![Confusion Matrix](confusion_matrix_eff.png)
 ![Class Distribution](class_distribution.png)
+![Per Class Accuracy](per_class_accuracy.png)
 
 ### Per-Class Performance
 
@@ -96,6 +98,12 @@ Upload a face image or use your webcam — the app predicts the emotion, display
 | Neutral | 0.57 | 63% | 0.55 | 56% |
 | Sad | 0.50 | 70% | 0.49 | 59% |
 | Surprise | 0.70 | 61% | 0.70 | 77% |
+
+### Grad-CAM++ Attention Evolution (Both Models)
+
+Side-by-side comparison of how attention maps evolve across training checkpoints (epochs 5, 15, 30) for all 7 emotion classes.
+
+![Grad-CAM Combined](gradcam_pp_combined.png)
 
 ---
 
