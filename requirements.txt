@@ -1,0 +1,10 @@
+tensorflow==2.15.0
+opencv-python
+gradio
+plotly
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+pillow
