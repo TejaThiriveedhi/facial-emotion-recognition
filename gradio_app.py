@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import warnings
 warnings.filterwarnings("ignore")
 
-BASE = "/content/drive/MyDrive/FER2013_Project"
+BASE = "os.path.dirname(os.path.abspath(__file__))"
 EMOTIONS = ["angry", "disgust", "fear", "happy", "neutral", "sad", "surprise"]
 EMOTION_EMOJIS = {
     "angry": "😠", "disgust": "🤢", "fear": "😨",
@@ -181,4 +181,4 @@ with gr.Blocks(title="Facial Emotion Recognition", theme=gr.themes.Soft()) as de
     - 📊 MobileNetV2: 59.6% accuracy | EfficientNetB0: 60.1% accuracy
     """)
 
-demo.launch(share=True, debug=False)
+demo.launch()
