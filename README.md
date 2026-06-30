@@ -8,6 +8,10 @@ A deep learning system that classifies facial expressions into 7 emotion categor
 
 ## Demo
 
+**Live App:** [Try it on Hugging Face Spaces](https://huggingface.co/spaces/TejaThiriveedhi/facial-emotion-recognition)
+
+This deployment demonstrates the full path from a trained Keras model to a served, interactive application — checkpoint loading, Grad-CAM++ inference, and a Gradio interface running live on Hugging Face Spaces infrastructure.
+
 Upload a face image or use your webcam — the app predicts the emotion, displays a confidence score for all 7 classes, and overlays a Grad-CAM++ heatmap showing which facial regions drove the prediction.
 
 ![Grad-CAM Visualization](gradcam_pp_efficientnet.png)
