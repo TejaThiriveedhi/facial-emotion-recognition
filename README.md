@@ -109,7 +109,7 @@ Side-by-side comparison of how attention maps evolve across training checkpoints
 
 ## Project Structure
 
-```
+---
 facial-emotion-recognition/
 │
 ├── FER2013_Emotion_Detection.ipynb     # Full training pipeline
@@ -119,15 +119,33 @@ facial-emotion-recognition/
 ├── README.md
 ├── .gitignore
 │
+├── checkpoints/
+│   ├── efficientnet/
+│   │   ├── eff_epoch_5.weights.h5
+│   │   ├── eff_epoch_15.weights.h5
+│   │   ├── eff_epoch_30.weights.h5
+│   │   └── eff_epoch_final.weights.h5
+│   │
+│   └── mobilenet/
+│       ├── mob_epoch_5.weights.h5
+│       ├── mob_epoch_15.weights.h5
+│       ├── mob_epoch_30.weights.h5
+│       └── mob_epoch_final.weights.h5
+│
 ├── models/
-│   └── efficientnetb0_single.keras     # EfficientNetB0 weights
+│   ├── efficientnetb0.weights.h5
+│   ├── fer.weights.h5
+│   └── mobilenetv2_fer_finetuned.h5
 │
 ├── saved_models/
-│   └── efficientnet_full.keras         # Full saved model
+│   ├── efficientnet_full.keras         # Full saved model
+│   └── mobilenet_full.keras            # Full saved model
 │
 ├── logs/
-│   ├── efficientnet_training_log.csv   # EfficientNetB0 epoch-by-epoch history
-│   └── mobilenet_log.csv               # MobileNetV2 epoch-by-epoch history
+│   ├── efficientnet_log.csv
+│   ├── efficientnet_training_log.csv
+│   ├── mobilenet_log.csv
+│   └── training_log.csv
 │
 └── (visualizations at root level)
     ├── sample_images.png
@@ -138,8 +156,6 @@ facial-emotion-recognition/
     ├── class_distribution.png
     ├── per_class_accuracy.png
     └── model_comparison.png
-```
-
 ---
 
 ## Getting Started
